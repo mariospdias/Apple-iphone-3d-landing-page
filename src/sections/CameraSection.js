@@ -135,7 +135,7 @@ const CameraSection = () => {
     );
 
     return () => {};
-  }, []);
+  });
 
   return (
     <Section ref={sectionRef}>

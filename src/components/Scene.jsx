@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/apple-iphone-13-pro-max-4328dea00e47497d
 Title: Apple iPhone 13 Pro Max
 */
 
-import React, { useRef } from "react";
+import React from "react";
 import { useGLTF } from "@react-three/drei";
 import gsap from "gsap";
 import { useLayoutEffect } from "react";
@@ -28,8 +28,6 @@ export function Model(props) {
     fov = (1400 * 18) / window.innerWidth;
     camera.fov = fov;
     camera.updateProjectionMatrix();
-
-    
 
     let mm = gsap.matchMedia();
 
@@ -54,27 +52,25 @@ export function Model(props) {
         });
 
         t1.fromTo(camera.position, { y: 2 }, { y: 0 })
-        .to(scene.rotation, { y: 0.8 })
-        .to(scene.rotation, { y: 3 })
-        .to(scene.rotation, { z: 1.58 }, "key1")
-        .to(camera.position, { z: 4 }, "key1")
-        .to(scene.rotation, { y: 0, z: 0 }, "key2")
-        .to(camera.position, { z: 6, x: isDesktop ? -1 : 0 }, "key2")
-        .to(scene.rotation, { z: 0, y: 6.3 }, "key3")
-        .to(camera.position, { x: isDesktop ? 0.8 : 0, y: 0 }, "key3");
+          .to(scene.rotation, { y: 0.8 })
+          .to(scene.rotation, { y: 3 })
+          .to(scene.rotation, { z: 1.58 }, "key1")
+          .to(camera.position, { z: 4 }, "key1")
+          .to(scene.rotation, { y: 0, z: 0 }, "key2")
+          .to(camera.position, { z: 6, x: isDesktop ? -1 : 0 }, "key2")
+          .to(scene.rotation, { z: 0, y: 6.3 }, "key3")
+          .to(camera.position, { x: isDesktop ? 0.8 : 0, y: 0 }, "key3");
 
-        if(isMobile){
+        if (isMobile) {
           camera.fov = 20;
           camera.updateProjectionMatrix();
         }
         return () => {
-          if(t1) t1.kill();
+          if (t1) t1.kill();
         };
       }
     );
-
-   
-  }, []);
+  }, [camera, materials.Body.color, scene.rotation]);
 
   return (
     <group {...props} dispose={null}>

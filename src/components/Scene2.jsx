@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/apple-iphone-13-pro-max-4328dea00e47497d
 Title: Apple iPhone 13 Pro Max
 */
 
-import React, { useRef } from "react";
+import React from "react";
 import { useGLTF } from "@react-three/drei";
 import { useLayoutEffect } from "react";
 import { useThree } from "@react-three/fiber";
@@ -20,7 +20,7 @@ export function Model2(props) {
   useLayoutEffect(() => {
     camera.position.set(-0.1,0.4,5);
     materials.Body.color.set("#9BB5CE");
-  }, []);
+  }, [camera, materials.Body.color]);
 
   return (
     <group {...props} dispose={null}>

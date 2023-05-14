@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, useGLTF } from "@react-three/drei";
+import { Environment, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense, useContext, useRef, useEffect } from "react";
 import styled from "styled-components";

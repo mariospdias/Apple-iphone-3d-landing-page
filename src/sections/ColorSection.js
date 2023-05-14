@@ -1,4 +1,4 @@
-import { Environment, useGLTF } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { gsap } from "gsap";
 import React, {
@@ -107,7 +107,8 @@ const ColorSection = () => {
         pinSpacing: true,
       },
     });
-
+    
+    // eslint-disable-next-line
     let t2 = gsap
       .timeline({
         scrollTrigger: {
@@ -155,6 +156,7 @@ const ColorSection = () => {
       });
 
     return () => {};
+    // eslint-disable-next-line
   }, []);
   return (
     <Section ref={sectionRef}>

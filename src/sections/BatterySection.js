@@ -86,7 +86,7 @@ const BatterySection = () => {
     });
 
     return () => {};
-  }, []);
+  }, [elements]);
 
   return (
     <Section id="battery">
