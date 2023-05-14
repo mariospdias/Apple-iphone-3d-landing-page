@@ -9,13 +9,13 @@ Este repositório é resultado de um estudo sobre animação e renderização de
 
 ### Imagens da landing page 3d:
 
-![HOME](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Hero-section-desktop.png)
-![Quote](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Quote.png)
-![Color](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Color-section.png)
-![Pricing](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Pricing%20Section.png)
-![HOME-Mobile](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Hero-section-mobile.png)
-![Color-Mobile](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Color-section-mobile.png)
-![Pricing-Mobile](https://github.com/mariospdias/3D-Landing-page-Apple-iPhone/blob/main/website-images/Pricing%20Section-mobile.png)
+![HOME](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Hero-section-desktop.png)
+![Quote](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Quote.png)
+![Color](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Color-section.png)
+![Pricing](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Pricing%20Section.png)
+![HOME-Mobile](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Hero-section-mobile.png)
+![Color-Mobile](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Color-section-mobile.png)
+![Pricing-Mobile](https://github.com/mariospdias/Apple-iphone-3d-landing-page/blob/master/website-images/Pricing%20Section-mobile.png)
 
 ### Recursos utilizados no projeto
 
