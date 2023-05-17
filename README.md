@@ -1,9 +1,5 @@
 # Estudo Landing Page 3D Apple iPhone em React JS
 
-![GitHub stars](https://img.shields.io/github/stars/mariospdias/3D-Landing-page-Apple-iPhone?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/mariospdias/3D-Landing-page-Apple-iPhone?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/mariospdias.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
-
 Este repositório é resultado de um estudo sobre animação e renderização de objetos 3D e controle de animação por scroll com ReactJS. <br />
 
 ### [**Demo**](https://apple-iphone-example.netlify.app/)
